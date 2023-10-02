@@ -1,36 +1,431 @@
-
-.background{
-    background-image: url(main_header_bg.jpg);
-    
-    background-position: 0vh;
-    background-size: cover;
-    height: 100vh;
-    align-items: center;
-    color: white;
-    display: flex;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Sans-serif;
 }
-header{
-    position:absolute;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5) !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(20px);
-    padding: 2% 0 !important;
+.s-header {
+  background-image: url(main_header_bg.jpg);
+  background-position: 50%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #833CA300;
+  background-size: cover;
 }
-.p1{
-    text-align: center;
-    justify-content: center;
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(37, 81, 120, 0.286);
+  
 
 }
-.logo {
+li {
+  
+  margin: 20px;
+  padding-top: 2.6%;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-flex;
+}
+  
+.elementor-column-wrap{
+  background-color: #269ebfb6;
+  padding-left: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  flex: 0 0 auto;
+  width: 20%;
+  
+  
+}
+nav{
+  background-color: rgba(255,255,255,0.5);
+}
+.elementor-widget-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.navigation li a{
+  color: white;
+  text-decoration: none;
+  padding-right: 5%;
+  
+}
+.navigation{
+  align-items: center;
+  
+}
+.bg-blur{
+  background: transparent;
+}
+.s-header2{
+  color: white;
+  font-size: 4rem;
+  padding-top: 13%;
+  padding-left: 5%;
+}
+.us{
+  padding: 1%;
+  color: var( --e-global-color-7e60fbb4 );
 
-    max-width: 10vw;
+font-size: 3.5vw;
+font-weight: bold;
+margin-left: -1.6%;
+
+}
+.rev{
+  color: var( --e-global-color-7e60fbb4 );
+  font-size: 6.1vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: -1%;
+  margin-top: -2.1%;
+}
+.btn{
+  font-size: 1vw;
+  font-weight: 400;
+  border-width: 1px;
+  border-radius: 28px;
+  border: 2px solid #fff;
+  color: white;
+  padding: 1% 2%;
+  background-color: transparent;
+  margin-bottom: 4%;
+}
+.s-container{
+  text-align: center;
+    padding: 5%;
+    font-size: 2vw;
+    font-weight: 900;
+    padding-top: 10%;
+}
+.plug{
+  
+  width: 101% !important;
+}
+.iPlug{
+  font-size: 1.6vw;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-top: -14%;
+}
+.clickv{
+  padding-top: 15%;
+  width: 100%;
+}
+.division-row{
+  min-width: 20vw;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.title{
+  font-weight: 900;
+  font-size: 220%;
+  text-align: start;
+}
+.mobilite{
+  max-width: 65%;
+}
+.align-items-center {
+    align-items: center!important;
+    justify-content: end;
+}
+.bike-s{
+  width: 100%;
+}
+.affiche{
+  max-width: 65%;
+}
+.btn-0{
+  padding-bottom: 20px;
+}
+.btn-1{
+  color: #269FBF;
+  background-color: white;
+  border: 1px solid #269FBF;
+  padding: 2% 12%;
+  font-size: 1vw;
+  font-weight: 100;
+  border-radius: 28px;
+  font-family: "Internfont", Sans-serif;
+}
+.p-soloway{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.guide-s{
+  width: 100%;
+  height: 70vh;
+}
+.btn-2{
+  color: rgb(255, 255, 255);
+  background-color: #ffffff00;
+  border: 1px solid #ffffff;
+  padding: 2% 12%;
+  font-size: 1vw;
+  font-weight: 100;
+  border-radius: 28px;
+  font-family: "Internfont", Sans-serif;
 }
 
-li ,ul{
+.bg-solo{
+  background-image: url("../css/SOLOWAY.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
 
-    list-style: none ;
-    color: white;
-    
+.vision{
+  display: flex;
+  position: absolute;
+  right: 5%;
+  color: #fff;
+  gap: 48px;
+  padding-top: 2%;
+}
+
+.vision span{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  
+}
+.g-vision{
+  color: white;
+  font: revert;
+  text-align: start;
+  padding-top: 14%;
+  font-size: 5rem;
+  padding-left: 45.4%;
+}
+.text-1{
+  color: white;
+  font-size: 5.5vw;
+  font-weight: 900;
+  padding-left: 45.4%;
+  padding-top: 7%;
+  line-height: 11vh;
+}
+.text-s{
+  color: white;
+  padding-left: 46%;
+}
+.a-propos-{
+  
+  padding-left: 46%;
+  padding-top: 3%;
+}
+.a-propos-s1{
+  padding-bottom: 6%;
+}
+.a-propos-s{
+  color: #000000(255, 255, 255);
+  background-color: #ffffff00;
+  border: 1px solid #000000;
+  padding: 2% 5%;
+  font-size: 1vw;
+  font-weight: 100;
+  border-radius: 28px;
+  font-family: "Internfont", Sans-serif;
+}
+.sectionP{
+  background-color: #EEEEEE;
+  padding-bottom: 7%;
+}
+.text-2{
+  color: rgb(0, 0, 0);
+  font-family: "interblack", Sans-serif;
+  font-size: 2.5vw;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  padding-top: 7%;
+  line-height: 11vh;
+}
+.partenariat{
+  text-align: center;
+}
+.partenaires-s{
+  margin-top: 4%;
+  border-radius: 28px 28px 28px 28px;
+  margin-right: 15px;
+  height: 17vh;
+}
+.sectionA{
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 7%;
+}
+.container-s{
+  position: relative;
+}
+.populated{
+  background-color: #EEEEEE;
+  border-radius: 16px 16px 16px 16px;
+  padding: 0% 0% 10% 0%;
+}
+.s-actu{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #EEEEEE;
+  border-radius: 0px 0px 28px 28px;
+}
+.s-text{
+  font-size: 1rem;
+}
+.s-link{
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #1bb0ce;
+}
+
+.backgrnd{
+  background-image: url("../css/Rectangulo-216.jpg");
+  min-height: 64vh;
+  background-repeat: no-repeat;
+}
+.bckgrnd{
+  height: 40vh;
+    width: 33vw;
+    padding-left: 19%;
+    padding-top: 6%;
+}
+.job{
+  font-size: 2.5vw;
+  font-weight: 900;
+  color: white;
+  margin-top: -116%;
+  margin-right: -100%;
+  padding-left: 68%;
+}
+.a-propos-2a{
+  padding-left: 66%;
+  padding-top: 15%;
+}
+.a-propos-2{
+  color: #ffffff;
+  background-color: #ffffff00;
+  border: 1px solid #ffffff;
+  padding: 20% 50%;
+  font-size: 1vw;
+  border-radius: 28px;
+  font-family: "Internfont", Sans-serif;
+}
+.footer{
+  height: 60vh;
+  background-color: #1B1B1B;
+  display: flex;
+  align-items: center;
+  }
+.location{
+  color: white;
+  flex: 1;
+
+}
+.ddd{
+  display: flex;
+}
+.formular{
+  color: white;
+}
+#name, #fname , #email, #number, #message { 
+    background-color: #00000000;
+    border-radius: 28px;
+    font-size: x-small;
+}
+.input{
+  gap: 10px;
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  border-radius: 28px;
+  border: 1px solid #fff;
+  background-color: transparent !important;
+  
+}
+textarea, .form-control{
+  border-radius: 15px;
+  font-size: x-small;
+
+}
+::placeholder{
+  color: white !important;
+  opacity: 1 !important; 
+}
+.reCAPTCHA{
+  font-weight: 100;
+  font: 100;
+  font-size: 10px;
+  padding-top: 20px;
+}
+.column{
+  width: 59%;
+}
+.btn-3{
+  color: #269FBF;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #269FBF;
+    padding: 2% 12%;
+    font-size: 1vw;
+    font-weight: 100;
+    border-radius: 28px;
+    font-family: "Internfont", Sans-serif;
+}
+.thick{
+  border: 2px solid #EFEFEF;
+}
+.leftlocation{
+  text-align: start;
+  justify-content: space-between;
+  padding-top: 17%;
+}
+.icon{
+  background: #269FBF;
+  border-radius: 100%;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 1px;
+}
+.icon1{
+  background: #269FBF;
+  border-radius: 100%;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 1px;
+}
+.nav-s, .nav-1{
+  background-color: #1B1B1B;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  padding-left: 19%;
+  font-size: 0.8vw;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+.bottom{
+  border:0px solid #1B1B1B;
+  font-size: smaller;
+}
+.copyright{
+  background-color: #1B1B1B;
+  color: white;
 }
