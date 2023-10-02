@@ -410,22 +410,42 @@ textarea, .form-control{
   padding-left: 6px;
   padding-right: 1px;
 }
-.nav-s, .nav-1{
-  background-color: #1B1B1B;
-  text-decoration: none;
-  color: white;
-  font-weight: 100;
-  padding-left: 19%;
-  font-size: 0.8vw;
-  font-weight: 500;
-  text-transform: uppercase;
+.nav-s{
+  display: flex;
+  border-bottom: 1px solid #269FBF;
 
 }
+ul.nav-s {
+  display: flex;
+  justify-content: FLEX-START;
+  background-color: #1B1B1B;
+  WIDTH: 60%;
+}
+
+.navbar{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #1B1B1B;
+}
+
+ul.nav-s a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+.copyright{
+  gap: 8px;
+  justify-content: flex-start;
+  background-color: #1B1B1B;
+  color: white;
+  padding-left: 300px;
+  font-size: smaller;
+  font-weight: 100;
+  height: 100px;
+}
+
 .bottom{
   border:0px solid #1B1B1B;
   font-size: smaller;
-}
-.copyright{
-  background-color: #1B1B1B;
-  color: white;
 }
