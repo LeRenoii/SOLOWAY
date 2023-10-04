@@ -454,3 +454,87 @@ ul.nav-s a {
   border:0px solid #1B1B1B;
   font-size: smaller;
 }
+.s-header-groupe{
+  background-image: url("../css/groupe.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  width: 100%;
+  background-color: #833CA300;
+}
+.header-s-group{
+  color: white;
+  font-size: 6rem;
+  padding-top: 2%;
+  text-align: center;
+  font-weight: bolder;
+}
+.apix_banner{
+  margin-left: -12% !important;
+  width: 45vw;
+  padding-top: 40%;
+}
+.para_apix{
+  padding-top: 65%;
+}
+.apix-list1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  background-color: white;
+  display: inline-grid;
+}
+.apix-list{
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  text-transform: lowercase;
+}
+b{
+  font-weight: 600;
+}
+.info-ekip{color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  bottom: 70px;
+  left: 35px;
+}
+.ekip{
+  font-weight: 900;
+}
+.info-ekip a
+{
+  color: white;
+  text-decoration: none;
+  background-color: #269FBF;
+  width: 25px ;
+  height: 25px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.profile{
+  position: relative;
+  top: 20px;
+
+}
+.profiles{
+  width: 83%;
+  margin-left: 7%;
+}
+.description{
+  font-size: 0.9vw;
+  font-weight: 100;
+  color: black;
+}
+
+.profile h1{
+  font-size: 1.2vw;
+  font-weight:600;
+}
